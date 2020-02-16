@@ -1,5 +1,7 @@
 import os, time
 
+# Could use fcntl.flock instead.
+
 class FileLock:
     def __init__(self, filename):
         self.filename = filename

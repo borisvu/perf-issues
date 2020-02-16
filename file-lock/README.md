@@ -14,6 +14,3 @@ One or more applications are stuck with high CPU usage.
 
 Attempt to understand the source of issue by investigating the applicaiton logs and standard output and error.
 Determine the process hogging the lock file by either reading the PID out of the file (a common practice), or by using `lsof <file_name>`
-
-## Final the drill down to display the discovered root cause of the problem
-
